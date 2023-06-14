@@ -1,0 +1,23 @@
+<div class="container">
+   <div class="user-info">
+      <img src="<%=user.avtar%>" alt="profile-Image" width="100">
+      <h3>User Name :<%=name%> </h3>
+      <h4>Email :<%=email%></h4>
+       <a href="/profile">Edit</a>
+      <a href="/logout"><i class="fa fa-sign-out"></i>Log Out</a>
+   </div>
+    <div class="post-anything">
+      <form action="/users" id="post-sumthing" method="post">
+         <textarea name="content"  cols="50" rows="2" placeholder="Post sumthing"></textarea>
+         <input type="submit" placeholder="post">
+      </form>
+    </div>
+    <div class="all-post" id="all-post">
+      <ul>
+         <%for(post of posts){%>
+            <%-include('_post')-%>
+        <%}%>
+      </ul>
+
+    <script src="js/home_post.js"></script>
+ 

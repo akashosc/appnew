@@ -1,0 +1,17 @@
+<div class="container">
+    <h1>Edit Profile</h1>
+    <img src="<%=avtar%>" alt="Image" width="100">
+    <div class="formpage edidthat">
+        <form action="/profile/<%=id%>" enctype="multipart/form-data" method="post">
+             <label for="image">Image</label>
+            <input type="file" name="avtar" id="">
+            <label for="name">NAME</label>
+            <input type="text" name="name" value="<%=name%>">
+            <label for="email">E-mail</label>
+            <input type="text" name="email" value="<%=email%>">
+            <label for="password">Your Password</label>
+            <input type="password" name="password" value="<%=password%>">
+            <input type="submit" placeholder="submit">
+        </form>
+    </div>
+</div>

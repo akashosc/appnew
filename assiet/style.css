@@ -1,0 +1,129 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #393646;
+}
+.user-info{
+    color: #F9F5EB;
+    font-size: 2rem;
+}
+.post-element .fa-trash{
+    color: red;
+    font-size: 2rem;
+}
+.upper-comment .fa-trash{
+    color: red;
+    font-size: 1.5rem;
+}
+small{
+    color: #070A52;
+}
+ul,li{
+  list-style: none;
+}
+a{
+    color:#F9F5EB;
+}
+.nav-bar{
+    font-size: 1.5rem;
+    background-color:#4F4557;
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem 1rem;
+}
+.container{
+    background-color:#6D5D6E;
+    padding: 1rem 5rem;
+}
+.user-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 1rem;
+    font-weight: bold;
+}
+.user-info a{
+   font-size: 2rem; 
+}
+.post-anything{
+    text-align: center;
+    background-color: #393646;
+    padding: 1rem 1rem;
+    border-radius: 1rem;
+}
+.post-anything textarea{
+    padding: 1rem;
+    font-size:1.5rem;
+    background-color: #6D5D6E;
+    outline:none;
+    border: 0px ;
+    color: white;
+    border-radius: 1rem;
+}
+.all-post{
+    background-color: #393646;
+    border-radius:1rem;
+    color: #F9F5EB;
+
+}
+.all-post>ul{
+   
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.post-element{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color:#6D5D6E;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+    width: 20rem;   
+}
+.post-element>h1{
+    color: #F4EEE0;
+}
+.me-commenthu form{
+  display: flex;
+  justify-content: center;
+}
+.me-commenthu form input{
+    background-color: #393646;
+    outline: none;
+    color: aliceblue;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+}
+.formpage{
+    background-color: #6D5D6E;
+    text-align: center;
+    margin: 1rem auto;
+    padding: 1rem;
+    width: 25rem;
+    height: 26rem;
+    border-radius: 1.5rem;
+}
+.formpage form{
+    display: flex;
+    flex-direction: column;
+   
+}
+.formpage form input{
+    background-color: #4F4557;
+    outline: none;
+    outline-style: none;
+    padding: 0.8rem;
+    margin: 0.5rem;
+    border-radius: 1rem;
+    border: 0px;
+}
+.edidthat,.edidthat form{
+    color: white;
+}
+
+
+
+
+

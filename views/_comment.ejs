@@ -1,0 +1,8 @@
+
+<%if(comment.user.id===user.id){%>
+    <a href="/users/deleatcomment/<%=comment._id%>"><i class="fa fa-trash"></i></a> 
+  <%}%>
+  <div class="comment-element">           
+  <h3><%=comment.content%></h3>
+  <h5><small>Commented by: </small><%=comment.user.name%></h5>
+  </div>
